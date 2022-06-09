@@ -4,8 +4,6 @@
 // creo variabile per la somma
 let addNumber = 0; 
 
-
-
 for(let i = 0; i < 10; i++ ){
     // chiedo i numeri all'utente
    let userNumber = parseInt (prompt('Scrivi un numero'));
@@ -15,4 +13,4 @@ for(let i = 0; i < 10; i++ ){
 
 }
 
-alert(addNumber)
+alert('La somma totale è ' + addNumber)
